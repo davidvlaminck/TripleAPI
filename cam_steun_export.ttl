@@ -1,0 +1,35 @@
+@prefix IE: <https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#> .
+@prefix asset: <https://data.awvvlaanderen.be/id/asset/> .
+@prefix loc: <https://loc.data.wegenenverkeer.be/ns/implementatieelement#> .
+@prefix ns1: <https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#> .
+@prefix onderdeel: <https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+asset:0000088e-a544-4362-a879-defa4f1d96d2-b25kZXJkZWVsI1JlY2h0ZVN0ZXVu a onderdeel:RechteSteun ;
+    loc:Locatie.geometrie "POINT Z (159375.72 178780.5 0)" ;
+    ns1:SteunStandaard.hoogteBovenkant [ IE:KwantWrdInMeter.waarde 3e+00 ] ;
+    IE:AIMDBStatus.isActief true ;
+    IE:AIMObject.assetId [ IE:DtcIdentificator.identificator "0000088e-a544-4362-a879-defa4f1d96d2-b25kZXJkZWVsI1JlY2h0ZVN0ZXVu" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] ;
+    IE:AIMObject.datumOprichtingObject "2010-01-01"^^xsd:date ;
+    IE:AIMToestand.toestand <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-gebruik> ;
+    onderdeel:RechteSteun.type <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/a-paal> .
+
+asset:0067dfa5-608f-41e3-aa4f-a6255e30df5d-b25kZXJkZWVsI0JldmVzdGlnaW5n a onderdeel:Bevestiging ;
+    IE:AIMDBStatus.isActief true ;
+    IE:RelatieObject.assetId [ IE:DtcIdentificator.identificator "0067dfa5-608f-41e3-aa4f-a6255e30df5d-b25kZXJkZWVsI0JldmVzdGlnaW5n" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] ;
+    IE:RelatieObject.bronAssetId [ IE:DtcIdentificator.identificator "79547a11-55b5-4776-bbbd-da9925c9ebcb-b25kZXJkZWVsI0NhbWVyYQ" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] ;
+    IE:RelatieObject.doelAssetId [ IE:DtcIdentificator.identificator "591b038e-bada-4b6c-8e46-6feefc66b1f6-b25kZXJkZWVsI0JldmVzdGlnaW5nc2JldWdlbA" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] .
+
+asset:00af89f4-49c2-43e0-9c32-bc742ca96fa1-b25kZXJkZWVsI1N0dXJpbmc a onderdeel:Sturing ;
+    IE:AIMDBStatus.isActief true ;
+    IE:RelatieObject.assetId [ IE:DtcIdentificator.identificator "00af89f4-49c2-43e0-9c32-bc742ca96fa1-b25kZXJkZWVsI1N0dXJpbmc" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] ;
+    IE:RelatieObject.bronAssetId [ IE:DtcIdentificator.identificator "29d4834b-e463-4cbf-a031-6c2f65510b36-b25kZXJkZWVsI0NhbWVyYQ" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] ;
+    IE:RelatieObject.doelAssetId [ IE:DtcIdentificator.identificator "6a9516a2-cdc9-44b1-bb66-f5610ef52d3e-b25kZXJkZWVsI05ldHdlcmtwb29ydA" ;
+            IE:DtcIdentificator.toegekendDoor "AWV" ] .
+
